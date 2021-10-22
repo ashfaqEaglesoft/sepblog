@@ -1,0 +1,70 @@
+h1{
+    /* background-color: forestgreen; */
+    background-image: linear-gradient(to right,rgb(54, 122, 54),white,white);
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    width: 100%;
+    /* opacity: 0.7; */
+}
+h3{
+    background-color: forestgreen;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    /* width: 100%; */
+    position: relative;
+}
+.courses{
+    background-image: linear-gradient(to right,yellow,rgb(163, 23, 23));
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 15px;
+    width: 200px;
+}
+table{
+    background-color: green;
+    opacity: 1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-color: 10px solid rgb(255, 0, 0);
+    border-color: 20px 10px 20px;
+}
+th{
+    background-color: rgb(221, 226, 214);
+    color: black;
+    font-size: larger;
+}
+.idea-img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 0px;
+}
+nav ol{
+    background-color: rgb(219, 248, 248);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(219, 248, 248);
+    
+}
+nav ol li:hover{
+    background-color: yellow;
+    transition: 0.5s;
+}
+nav a:link , a:visited{
+    color:teal;
+    text-decoration: none;
+    font-size: 20px;
+}

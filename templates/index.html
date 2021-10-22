@@ -1,0 +1,26 @@
+{% include "header.html" %}
+
+<img class="idea-img" src="static/images/idea.png">
+<h1>Eaglesoft offering Programming Dose</h1>
+    {%for i in clist%}
+    <h3 class='courses'>{{forloop.counter}} {{i}}</h3>
+    {%endfor%}
+
+    <br>
+    <table cellpadding="20px">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>salary</th>
+        </tr>
+        {%for n in details%}
+        {% if n.salary > 25 %}
+        <tr>
+            <td>{{n.name}}</td>
+            <td>{{n.role}}</td>
+            <td>{{n.salary}}</td>
+        </tr>
+        {%endif%}
+        {%endfor%}
+    </table>
+{% include "footer.html" %}
